@@ -2,4 +2,4 @@
 
 - [x] text elements
 - [x] images and tables
-- [ ] bonus
+- [x] bonus
