@@ -1,0 +1,53 @@
+body {
+    flex-direction: column;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    color: #000000cb;
+}
+
+label {
+    display: block;
+}
+
+.button {
+    width: 80px;
+    background: rgb(35, 136, 236);
+    color: #fff;
+    line-height: 32px;
+    padding: 2;
+    border: 0;
+    border-radius: 4px;
+    transition: all 0.4s linear;
+}
+.button:hover {
+    background: transparent;
+    color: #000;
+    background-color: rgba(9, 255, 0, 0.61);
+}
+
+.cancel {
+    background: rgb(255, 255, 255);
+    color: #000;
+    border: 2px;
+}
+
+.cancel:hover {
+    background: transparent;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 0, 0, 0.575);
+}
+
+h6 {
+    font-size: 15px;
+    color: rgba(128, 128, 128, 0.548);
+    font-family: inherit;
+}
+
+#fullname {
+    color: red;
+}
+#fullname,
+#email {
+    height: 25px;
+    width: 90%;
+}
