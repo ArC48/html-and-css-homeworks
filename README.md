@@ -1,5 +1,5 @@
 # html and css homeworks
 
-- [ ] Forms
-- [ ] HTML5 tags
+- [x] Forms
+- [x] HTML5 tags
 - [ ] CSS selectors
