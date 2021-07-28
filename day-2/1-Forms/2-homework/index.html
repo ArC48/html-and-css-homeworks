@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <title>2nd Homework</title>
+        <meta charset="UTF-8">
+        <title>second website</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    
     <body>
-        <h3>Sign in</h3>
-        <hr>
         <main>
-            <div>
-                <form>
-                    <br>
-                    <div class="txt_field">
-                        <label for="fullname">Full Name:</label>
-                        <input type="text" id="fullname" placeholder="Enter full name">
+            <h4>Sign in</h4>
+            <hr>
+            <form action="" method="POST">
+                <div>
+                    <div class="txt_padd">
+                        <label for="full_name">Full Name:</label>
+                        <br>
+                        <input type="text" name="fullname" id="full_name" placeholder="Enter full name">
                     </div>
-                    <br>
-                    <div class="txt_field">
-                        <label for="email">Email address:</label>
-                        <input type="email" id="email" placeholder="Enter email">
+                    
+                    <div  class="txt_padd">
+                        <label for="email-address">Email address:</label>
+                        <br>
+                        <input type="email" name="EmailAddress" id="email" placeholder="Enter email">
                     </div>
+                </div>
+                
+                <br>
+
+                <div class="txt_padd">
+                    <label>
+                        Communication:
+                        <br><br>
+                        <input type="checkbox"> 
+                        <label for="">Email</label>
+                        <br><br>
+                        <input type="checkbox">
+                        <label for="">SMS</label>
+                        <br><br>
+                        <input type="checkbox" checked>
+                        <label for="">Phone</label>
+                    </label>
+                </div>
+                <br>
+                
+                <p>User Group:</p>
+        
+                <div class="txt_padd">
+                    <input type="radio" id="sales-person" name="comm" value="sales-person" checked>
+                    <label for="sales-person">Sales person</label>
+        
+                    <input type="radio" id="customer" name="comm" value="customer">
+                    <label for="customer">Customer</label>
                     <br>
-                    <div>
-                        <label for="">Communication:</label>
-                        <div>
-                            <input type="checkbox" name="" id="">
-                            <label for="">Email</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="" id="">
-                            <label for="">SMS</label>
-                        </div>
-                        <div>
-                            <input type="checkbox" name="" id="">
-                            <label for="">Phone</label>
-                        </div>
-                    </div>
-                    <br>
-                    <div>
-                        <label for="">User Group:</label>
-                        <div class="usergroup">
-                            <input type="radio" name="salesperson" id="salesperson">
-                            <label for="">Sales Person</label>
-    
-                            <input type="radio" name="costumer" id="costumer"> 
-                            <label for="">Customer</label>
-                        </div>
-                        <h6>Please select user group</h6>
-                    </div>
-                    <hr>
-                    <button class="button">Submit</button>
-                    <button type="reset" class="button cancel">Cancel</button>
-            </div>
+                    <small>Please select user group</small>
+
+                </div>
+
+                <span id="hr2"><hr></span>
+                <br>
+
+                <button class="button" id="submit" type="submit">Submit</button>
+                <button class="button" id="cancel" type="reset">Cancel</button>
+
             </form>
-            </div>
         </main>
     </body>
 </html>
