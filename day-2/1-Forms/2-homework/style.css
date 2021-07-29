@@ -20,7 +20,7 @@ main{
 hr{
     margin-bottom: 25px;
     margin-right: 700px;
-    width: 670px;
+    width: 100%;
 }
 
 #hr2{
@@ -37,6 +37,7 @@ small{
 
 form{
     margin-left: 5px;
+    max-width: 670px;
 }
 
 .txt_padd{
