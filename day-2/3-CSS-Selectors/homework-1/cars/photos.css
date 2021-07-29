@@ -1,0 +1,33 @@
+body{
+    background-image: url(./images/tires.jpg);
+    min-height: 80vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1{
+    color: rgb(255, 154, 66);
+}
+
+.button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+    width: 550px;
+    background: rgba(0, 0, 0, 0.815);
+    line-height: 12px;
+    border-radius: 6px;
+    transition: all 0.4s linear;
+ }
+
+ 
+ .button:hover{
+    background: transparent;
+    background-color:rgba(52, 221, 0, 0.815);
+    color: black;
+ }
