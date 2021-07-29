@@ -1,0 +1,68 @@
+.links{
+    text-decoration: none;
+}
+
+header{
+    background-color:  rgba(8, 8, 95, 0.466);
+}
+
+body{
+    background-image: url(./media/background.jpg);
+}
+
+.title{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    text-shadow: 3px 3px rgb(199, 199, 199);
+    transform: translate(-50%, -50%);
+}
+
+
+
+.title h2{
+    color: rgba(255, 240, 240, 0.589);
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+.button{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 20px;
+    transform: translate(-50%, -50%);
+}
+
+.links{
+    color: rgb(73, 73, 73);
+    text-align: center;
+    text-shadow: 3px 2px grey;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    transition: 0.6s ease;
+}
+
+#back{
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+}
+
+.links:hover{
+    background-color: #fff;
+    color: rgba(2, 94, 165, 0.733);
+    font-size: 30px;
+}
+
+#back:hover{
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(255, 0, 0, 0.671);
+    font-size: 18px;
+}
+
