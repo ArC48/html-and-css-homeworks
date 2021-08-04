@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+
+.container{
+    min-width: 1150px;
+}
+
+
+.first{
+    margin-left: 190px;
+    margin-top: 40px;
+    margin-left: 190px;
+}
+
+.second{
+    margin-left: 190px;
+
+}
+
+
+.first *{
+    height: 220px;
+    width: 220px;
+    float: left;
+    text-align: center;
+    background-color: rgb(255, 230, 0);
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.second *{
+    height: 100px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: rgb(43, 255, 0);
+    clear: right;
+    text-align: center;
+}
+
