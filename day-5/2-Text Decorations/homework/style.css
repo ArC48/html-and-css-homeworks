@@ -1,0 +1,249 @@
+body{
+    font-family: 'Roboto';
+}
+
+.flex-container{
+    display: flex;
+    min-height: 720px;
+    min-width: 1172px;
+    padding: 156px 370px;
+
+
+}
+
+#mainheader{
+    position: relative;
+    height: 29px;
+    width: 330px;
+    font-size: 30px;
+    top: -32px;
+    left: -5px;
+    color: rgb(65, 65, 65);
+    font-weight: 200;
+}
+
+p{
+    font-size: 14px;
+    color: #A1B1BC;
+}
+
+#firstp{
+    line-height: 23px;
+    position: absolute;
+    min-width: 1165px;
+    height: 80px;
+    top: 185px;
+    left: 374px;
+}
+
+.lists{
+    display: flex;
+}
+
+.list1{
+    position: absolute;
+    list-style-type: square;
+    color: #A1B1BC;
+    top: 275px;
+    left: 335px;
+    height: 10px;
+    width: 360px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.list1 > label{
+    position: relative;
+    margin: 5px ;
+    padding: 10px;
+    top: -3px;
+}
+
+.list2{
+    position: absolute;
+    list-style-type: square;
+    color: #A1B1BC;
+    top: 275px;
+    left: 735px;
+    height: 10px;
+    width: 360px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.list2 > label{
+    position: relative;
+    margin: 5px ;
+    padding: 10px;
+    top: -3px;
+}
+
+.list3{
+    position: absolute;
+    list-style-type: square;
+    color: #A1B1BC;
+    top: 275px;
+    left: 1135px;
+    height: 10px;
+    width: 360px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.list3 > label{
+    position: relative;
+    margin: 5px ;
+    padding: 10px;
+    top: -3px;
+}
+
+#secondheader{
+    position: absolute;
+    height: 29px;
+    width: 330px;
+    font-size: 30px;
+    top: 455px;
+    left: 373px;
+    color: rgb(65, 65, 65);
+    font-weight: 200;
+
+}
+
+span{
+    color: aqua;
+}
+
+#secondp{
+    line-height: 23px;
+    position: absolute;
+    min-width: 1170px;
+    height: 100px;
+    top: 506px;
+    left: 374px;   
+}
+
+#css{
+    position: absolute;
+    background-color: rgba(224, 224, 224, 0.322);
+    height: 160px;
+    padding: 15px;
+    min-width: 1140px;
+    top: 618px;
+    left: 375px; 
+}
+
+#css p{
+    position: relative;
+    padding: 1px;
+    top: -5px;
+    left: 15px;
+    line-height: 24px;
+    word-spacing: .3px;
+    font-weight: 500;
+}
+
+#thirdp{
+    line-height: 23px;
+    position: absolute;
+    min-width: 1170px;
+    height: 100px;
+    top: 818px;
+    left: 374px;  
+}
+
+#figure{
+    position: absolute;
+    height: 400px;
+    width: 370px; 
+    background-color: rgba(224, 224, 224, 0.473);
+    top: 997px;
+    left: 374px;
+}
+
+#inlinep{
+    position: absolute;
+    line-height: 23px;
+    height: 382px;
+    width: 767px;
+    top: 980px;
+    left: 774px;
+}
+
+#plus{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    top: 1433px;
+    left: 375px;
+}
+
+#ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    top: 1433px;
+    left: 425px;
+    height: 48px;
+    width: 1118px;
+    border: 1px solid rgba(194, 194, 194, 0.541);
+}
+
+#ul li{
+    display: inline-block;
+}
+
+#ul a{
+    color: rgb(0, 172, 134);
+}
+
+
+
+#ul li p, ul li a{
+    font-size: 14px;
+}
+
+#lastparentdiv{
+    position: absolute;
+    height: 160px;
+    width: 1170px;
+    top: 1533px;
+    left: 375px;
+    background-color: #ecf0f15b;
+    border: 1px solid rgba(226, 226, 226, 0.582);
+}
+
+#lastchilddiv{
+    position: relative;
+    top: 10px;
+    left: 406;
+    width: 100px;
+    height: 100px; 
+    background-color: #A1B1BC;
+    z-index: 2;
+    margin-left: 27px;
+    margin-top: 17px;
+    border: 3px solid white;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px 1px rgb(167, 167, 167);
+}
+
+h3, h4{
+    position: relative;
+}
+
+h3{
+    height: 20px;
+    width: 120px;
+    line-height: 2px;
+    left: 158px;
+    top: 356px;
+}
+
+h4{
+    top: 336px;
+    left: 158px;
+    font-size: 14px;
+    font-weight: 100;
+    color: rgba(209, 209, 209, 0.842);
+}
