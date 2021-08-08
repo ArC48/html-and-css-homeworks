@@ -1,55 +1,128 @@
 body{
-    margin: 4px;
-}
+    margin: 5px;
+    }
 
-.container{
-    position: relative;
+#container{
+    width: 490px;
+    height: 490px;
     border: 5px solid black;
-    box-sizing: border-box;
-    width: 500px;
 }
 
-.row1{
+.flex{
     display: flex;
 }
 
-section > div{
-    margin: 2px;
-    padding: 10px;
+.column {
     border: 1px solid black;
+    box-sizing: border-box;
+    margin: 1px;
+    }
+
+.one-three {
+    width: 47px;
+    height: 130px;
+    }
+
+.square {
+    width: 46px;
+    height: 43px;
+    }
+
+.one-two {
+    width: 46px;
+    height: 86px;
+    }
+
+.two-one{
+    height: 42px;
+    width: 96px;
 }
 
-.threerows{
-    height: 106px;
-    width: 24px;
+.two-three{
+    height: 130px;
+    width: 97px;
 }
 
-.square{
-    height: 20px;
-    width: 22px;
+.one-four{
+    height:173px;
+    width: 46px;
 }
 
-.twosquares{
-    height: 20px;
-    width: 74px;
+.end{
+    margin-top: 45px;
+    margin-left: 2px;
 }
 
-.twoThree{
-    height: 106px;
-    width: 212px;
+.three-two{
+    height: 86px;
+    width: 144px;
 }
 
-.tworows{
-    height: 63px;
-    width: 22px;
+.three-one{
+    height: 43px;
+    width: 144px;
 }
 
-.fourrows{
-    height: 150px;
-    width: 22px;
+#nothing{
+    margin-top: 3px;
 }
 
-#endBox1{
-    height: 20px;
-    width: 22px;
+#nothing1{
+    margin-left: 3px;
+}
+
+.add {
+    align-items: flex-end;
+}
+
+#nothing3{
+    margin-top: 2px;
+    height: 132px;
+}
+
+.four-one{
+    height: 43px;
+    width: 192px;
+}
+
+.left{
+    width: 46px;
+}
+
+.left2{
+    width: 97px;
+}
+
+#arc1{
+    height: 174px;
+}
+
+#arc2, #arc3{
+    width: 48px;
+}
+
+#arc4, #arc6, #arc7, #arc11{
+    height: 133px;
+}
+
+#arc5{
+    height: 90px;
+    margin-top: 1.4px;
+}
+
+#arc8, #arc9, #arc12{
+    height: 89px;
+}
+
+#arc10{
+    height: 43px;
+}
+
+#arc13{
+    margin-top: 0.3px;
+    height: 39px;
+}
+
+.final{
+    margin-top: 90px;
 }
