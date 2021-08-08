@@ -16,7 +16,7 @@ body{
     width: 330px;
     font-size: 30px;
     top: -32px;
-    left: -5px;
+    left: -285px;
     color: rgb(65, 65, 65);
     font-weight: 200;
 }
@@ -32,7 +32,7 @@ p{
     min-width: 1165px;
     height: 80px;
     top: 185px;
-    left: 374px;
+    left: 92px;
 }
 
 .lists{
@@ -43,8 +43,8 @@ p{
     position: absolute;
     list-style-type: square;
     color: #A1B1BC;
-    top: 275px;
-    left: 335px;
+    top: 276px;
+    left: 55px;
     height: 10px;
     width: 360px;
     font-size: 14px;
@@ -62,8 +62,8 @@ p{
     position: absolute;
     list-style-type: square;
     color: #A1B1BC;
-    top: 275px;
-    left: 735px;
+    top: 276px;
+    left: 455px;
     height: 10px;
     width: 360px;
     font-size: 14px;
@@ -81,8 +81,8 @@ p{
     position: absolute;
     list-style-type: square;
     color: #A1B1BC;
-    top: 275px;
-    left: 1135px;
+    top: 276px;
+    left: 855px;
     height: 10px;
     width: 360px;
     font-size: 14px;
@@ -102,7 +102,7 @@ p{
     width: 330px;
     font-size: 30px;
     top: 455px;
-    left: 373px;
+    left: 93px;
     color: rgb(65, 65, 65);
     font-weight: 200;
 
@@ -117,8 +117,8 @@ span{
     position: absolute;
     min-width: 1170px;
     height: 100px;
-    top: 506px;
-    left: 374px;   
+    top: 508px;
+    left: 93px;   
 }
 
 #css{
@@ -128,7 +128,7 @@ span{
     padding: 15px;
     min-width: 1140px;
     top: 618px;
-    left: 375px; 
+    left: 95px; 
 }
 
 #css p{
@@ -147,7 +147,7 @@ span{
     min-width: 1170px;
     height: 100px;
     top: 818px;
-    left: 374px;  
+    left: 93px;  
 }
 
 #figure{
@@ -156,7 +156,7 @@ span{
     width: 370px; 
     background-color: rgba(224, 224, 224, 0.473);
     top: 997px;
-    left: 374px;
+    left: 93px;
 }
 
 #inlinep{
@@ -165,7 +165,7 @@ span{
     height: 382px;
     width: 767px;
     top: 980px;
-    left: 774px;
+    left: 493px;
 }
 
 #plus{
@@ -173,7 +173,7 @@ span{
     height: 50px;
     width: 50px;
     top: 1433px;
-    left: 375px;
+    left: 93px;
 }
 
 #ul{
@@ -181,8 +181,8 @@ span{
     margin: 0;
     padding: 0;
     list-style-type: none;
-    top: 1433px;
-    left: 425px;
+    top: 1434px;
+    left: 142px;
     height: 48px;
     width: 1118px;
     border: 1px solid rgba(194, 194, 194, 0.541);
@@ -207,7 +207,7 @@ span{
     height: 160px;
     width: 1170px;
     top: 1533px;
-    left: 375px;
+    left: 93px;
     background-color: #ecf0f15b;
     border: 1px solid rgba(226, 226, 226, 0.582);
 }
@@ -235,13 +235,13 @@ h3{
     height: 20px;
     width: 120px;
     line-height: 2px;
-    left: 158px;
-    top: 356px;
+    left: -124px;
+    top: 357px;
 }
 
 h4{
     top: 336px;
-    left: 158px;
+    left: -124px;
     font-size: 14px;
     font-weight: 100;
     color: rgba(209, 209, 209, 0.842);
