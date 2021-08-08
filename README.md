@@ -1,4 +1,4 @@
 # html and css homeworks
 
-- [x] Position
-- [x] Flow Management
+- [x] Flexbox
+- [x] Text Decorations
