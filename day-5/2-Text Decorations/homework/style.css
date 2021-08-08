@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto';
+    overflow-x: hidden;
 }
 
 .flex-container{
@@ -7,8 +8,6 @@ body{
     min-height: 720px;
     min-width: 1172px;
     padding: 156px 370px;
-
-
 }
 
 #mainheader{
