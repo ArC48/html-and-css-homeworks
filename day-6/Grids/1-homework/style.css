@@ -6,13 +6,12 @@
     grid-template-rows: 240px  140px 175px 1fr;
     grid-template-columns: 50px 215px 185px 1fr;
     background-color:black;
-    grid-gap: 5px;
+    gap: 7px;
 }
 
 .item{
     background-color: rgb(244,237,218);
-    padding: 5px;
-    color: blue;
+    padding: 7px;
 }
 
 .col-1{
