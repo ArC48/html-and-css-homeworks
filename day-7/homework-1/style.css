@@ -1,3 +1,6 @@
+body{
+    overflow: hidden;
+}
 .background {
     width: 1925px;
     height: 1080px;
@@ -6,6 +9,7 @@
     url("./images/Image\ 1.png");
     transform: translate(-9px, -170px);
     position: relative;
+
 }
 
 .text {
